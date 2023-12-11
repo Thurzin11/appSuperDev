@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2F6306;
+  color: #fff;
+  padding: 10px;
+  padding-left: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+header h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.voltar {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.voltar .logo {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  padding: 30px;
+}
+main h2 {
+  padding-bottom: 30px;
+  color: #656565;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.cabecalho-tabela {
+  background-color: #E07D0A;
+  color: #fff;
+}
+.cabecalho-tabela th {
+  padding: 10px;
+  text-align: start;
+  border-bottom: solid 1px black;
+}
+
+table td {
+  padding: 10px;
+  text-align: start;
+  border-bottom: solid 1px black;
+}
+table td .botao {
+  border: none;
+  background-color: #2F6306;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+table .lista:nth-child(odd) {
+  background-color: #E8E8E8;
+}/*# sourceMappingURL=alunos.css.map */
